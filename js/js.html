@@ -1,0 +1,54 @@
+<html>
+	<head>
+		<title>JavaScript</title>
+		
+		<style type="text/css">
+			body {
+				background-color: #414042;
+			}
+			#main {
+				text-align: center;
+				color: floralwhite;
+			}
+		</style>
+	</head>
+	
+	<body>
+		<div id="main">
+			<p>Enter a number from 0 to 9:</p>
+			<p>
+				<select id="input">
+					<option>0</option>
+					<option>1</option>
+					<option>2</option>
+					<option>3</option>
+					<option>4</option>
+					<option>5</option>
+					<option>6</option>
+					<option>7</option>
+					<option>8</option>
+					<option>9</option>
+				</select>
+			</p>
+			<p><button id="btn">Check</button></p>
+		</div>
+		<script type="text/javascript">
+			document.getElementById("btn").onclick = function() {
+				var input = document.getElementById("input").value;
+				var numGuess = 0;
+				while (true) {
+					var num = Math.floor(Math.random() * 10);
+					if (input == num) {
+						alert("correct!" + input + " " + num + "\nnum of guesses " + numGuess);
+						break;
+					} else {
+						alert("wrong... computer says " + num);
+						numGuess++;
+						
+					}
+				}
+				
+			}
+		</script>
+	</body>
+</html>

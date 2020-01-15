@@ -1,0 +1,45 @@
+<html>
+	<head>
+		<title>jQuery</title>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+		<link href="jquery-ui-1.12.1/jquery-ui.css" rel="stylesheet">
+		<script src="jquery-ui-1.12.1/jquery-ui.js"></script>
+		<style type="text/css">
+			body {
+				background-color: #F1EBE5;
+			}
+		</style>
+	</head>
+
+	<body>
+		<div id="accordion">
+			<h3>Section 1</h3>
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ac ultrices quam, id vestibulum ex. Sed vehicula sed orci vel lacinia. Vivamus id est rhoncus, efficitur lorem non, volutpat lacus. Donec ac neque mattis velit egestas pulvinar vel a metus. Nulla enim libero, molestie sit amet porta a, lacinia non lorem. Etiam eget placerat diam, nec gravida metus. Pellentesque ac imperdiet risus. Proin justo ante, malesuada vitae semper a, pharetra at tortor.</p>
+			<h2>Section 2</h2>
+			<p>Nam quis eleifend orci. Integer sed diam sed neque posuere porttitor et et lorem. Maecenas ipsum diam, ornare vitae egestas blandit, pretium ut tortor. Vivamus nec convallis erat, et ornare velit. Proin nec metus urna. Nam id eros consectetur, mattis lorem at, tincidunt lorem. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Ut eget euismod velit. Duis mattis posuere faucibus. Duis luctus interdum magna, nec tristique erat scelerisque sed. Sed sit amet dolor ut ipsum sollicitudin scelerisque. Donec vel felis sodales, imperdiet nibh ac, hendrerit dui. Nulla vulputate nisl sit amet facilisis cursus. Nam sit amet felis vitae nibh elementum gravida non non mauris. Cras tempus dignissim ex, eget auctor lectus pellentesque eget.</p>
+			<h3>Section 3</h3>
+			<p>Nam at egestas purus, vestibulum luctus erat. Etiam consectetur aliquet augue. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi vel congue nunc. In maximus nec turpis a pretium. Morbi quis malesuada nisl. Fusce sit amet nisl ac lacus imperdiet pellentesque. Aenean a risus non massa pellentesque pretium. Praesent malesuada mauris non lacinia hendrerit. In tellus ex, faucibus eu auctor quis, posuere non lorem. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ultricies odio erat, quis feugiat elit sodales in. Nulla iaculis vestibulum diam id bibendum. Nunc vulputate sed arcu non tincidunt. Vestibulum egestas nec ligula non malesuada. Nam sit amet diam eu sapien laoreet hendrerit.</p>
+		</div>
+		<div>
+			<ul id="sort">
+				<li>d</li>
+				<li>i</li>
+				<li>b</li>
+				<li>k</li>
+				<li>s</li>
+				<li>a</li>
+				<li>i</li>
+				<li>a</li>
+				<li>w</li>
+				<li>p</li>
+			</ul>
+		</div>
+		<script type="application/javascript">
+			$("#accordion").accordion();
+			$("#sort").sortable();
+			$("#sort").disableSelection();
+		</script>
+		
+	</body>
+
+</html>

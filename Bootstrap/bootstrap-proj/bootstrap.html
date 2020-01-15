@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<meta http-equiv="x-ua-compatible" content="ie=edge">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+		<script src="https://kit.fontawesome.com/3d0d4c7122.js" crossorigin="anonymous"></script>
+		<style>
+			.jumbotron {
+				background-image: url(images/jumbotron-bg.jpg);
+				text-align: center;
+			}
+			#email {
+				width: 300px;
+				
+			}
+			#appsum {
+				text-align: center;
+			}
+			#appstoreicon {
+				width: 200px;
+			}
+			#footer {
+				text-align: center;
+				background-color: #F6DDDF;
+				padding: 50px 0;
+				margin-top: 50px;
+			}
+			body {
+				position: relative
+			}
+		</style>
+	</head>
+
+	<body data-spy="scroll" data-target="#nvbar" data-offset=150>
+		<nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top" id="nvbar">
+			<a class="navbar-brand" href="#">MyApp</a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+
+			<div class="collapse navbar-collapse" id="navbarSupportedContent">
+				<ul class="navbar-nav mr-auto">
+					<li class="nav-item">
+						<a class="nav-link" href="#jumbotron">Home <span class="sr-only">(current)</span></a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#about">About</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#footer">Download the App</a>
+					</li>
+					
+				</ul>
+				<form class="form-inline my-2 my-lg-0">
+					<input class="form-control mr-sm-2" type="email" placeholder="Email">
+					<input class="form-control mr-sm-2" type="password" placeholder="Password">
+					<button class="btn btn-outline-success my-2 my-sm-0" type="submit">Login</button>
+				</form>
+			</div>
+		</nav>
+		<div class="jumbotron" id="jumbotron">
+			<h1 class="display-4 text-center">Sample Page</h1>
+			<p class="lead">This is a simple sample page of aome applicatino. This information is useless.</p>
+			<hr class="my-4">
+			<p>Want to know more? Do soemthing said here!</p>
+			<from class="form-inline justify-content-center">
+					<div class="form-group">
+						<label class="sr-only" for="email">Email Address</label>
+						<div class="input-group">
+							<div class="input-group-prepend">
+								<div class="input-group-text">@</div>
+							</div>
+							<input type="email" class="form-control" id="email" placeholder="Your Email">
+						</div>
+					<button type="submit" class="btn btn-primary">Sign up</button>
+				</div>
+			</from>
+		</div>
+
+		<div class="container">
+			<h1 style="text-align: center;">Sample App description</h1>
+			<div class="row" id="appsum">
+				<p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam eget molestie orci. Praesent ex ipsum, vulputate non lobortis sed, tempus et sapien. Mauris mollis efficitur pellentesque. Donec non nisi ut lorem auctor tristique vitae sed lorem. Sed interdum vehicula sodales. Nulla congue lacinia risus, sed ullamcorper lorem pharetra quis. Nam et purus sem. Proin turpis ex, rhoncus in elit non, facilisis sodales purus. Nunc porta tortor quis mollis finibus. Nulla malesuada rhoncus sapien id ullamcorper.</p>
+			</div>
+		</div>
+		
+		<div class="container" id="about">
+			<div class="card-deck">
+				<div class="card">
+					<img src="images/one.jpg" class="card-img-top" alt="...">
+					<div class="card-body">
+						<h5 class="card-title"><i class="fas fa-pizza-slice"></i> Card title</h5>
+						<p class="card-text">In risus erat, dapibus a massa quis, sollicitudin maximus nisl. Sed aliquet iaculis molestie. Mauris non nisl dui. Proin facilisis, mauris nec dapibus fringilla, eros dolor scelerisque massa, in suscipit lectus dui eget libero. Phasellus aliquet, eros ac dictum luctus, risus mauris consequat odio, id sodales lorem diam sed libero. Nunc venenatis efficitur arcu nec hendrerit. Fusce in vehicula ante. Etiam a efficitur elit. Mauris vel varius velit. Vestibulum nisl neque, maximus sed aliquet id, fringilla a orci.</p>
+						<p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+					</div>
+				</div>
+				<div class="card">
+					<img src="images/two.jpg" class="card-img-top" alt="...">
+					<div class="card-body">
+						<h5 class="card-title"><i class="fab fa-hotjar"></i> Card title</h5>
+						<p class="card-text">Nunc vitae ullamcorper eros. Vivamus nibh quam, dictum non ligula sed, consequat sodales dui. Donec fermentum, enim a lobortis fermentum, nibh nulla eleifend libero, vitae varius felis tellus vel purus. Vivamus varius felis ut augue dictum faucibus. Donec turpis odio, dictum vitae hendrerit a, posuere vitae lorem. Integer sed pellentesque purus. Quisque ultricies justo erat, at mollis turpis aliquam vitae. Cras eu arcu at enim commodo tincidunt. Nulla commodo mauris vel massa posuere ornare.</p>
+						<p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+					</div>
+				</div>
+				<div class="card">
+					<img src="images/three.jpg" class="card-img-top" alt="...">
+					<div class="card-body">
+						<h5 class="card-title"><i class="fab fa-telegram"></i> Card title</h5>
+						<p class="card-text">Nam scelerisque maximus odio in sodales. Morbi ac suscipit massa. Praesent nec sapien in sem bibendum fermentum eget non velit. Cras nisl turpis, convallis sit amet purus vitae, varius pharetra massa. Nam sed facilisis urna. Cras dui quam, tempus ut tortor sed, cursus posuere dolor. Aenean facilisis ante et massa vehicula, vitae mattis nisi ultrices. Nunc viverra id est ac sagittis. Maecenas pellentesque vehicula nunc, sit amet varius sem dapibus quis. Suspendisse dignissim massa eu commodo egestas. Donec rutrum nisi libero, nec sodales nisi finibus posuere. Pellentesque sed ligula auctor, congue massa nec, varius purus. Nunc euismod posuere erat vel molestie. Ut congue dapibus leo, ac fermentum sem consectetur nec.</p>
+						<p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div id="footer">
+			<h2>Download the app!</h2>
+			<p class="lead">Reasons why you should do it.</p>
+			<p><a href=""><img id="appstoreicon" src="images/download.png"></a></p>
+		</div>
+		<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+	</body>
+</html>
